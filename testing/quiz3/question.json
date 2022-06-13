@@ -1,0 +1,32 @@
+[
+    {   
+        
+        "question":"what is php?",
+        "answers": {
+            "option1": "Hypertext Preprocessor",
+            "option2": "pre hypertext processor"               
+        },
+        "answer":"Hypertext Preprocessor",
+        "number":"1"
+    },
+    {
+        
+        "question": "What is HTML?",
+        "answers": {
+            "option1": "hypertextmarkuplanguage",
+            "option2":"hypertextmarkedlanguage"
+         },
+        "answer": "hypertextmarkuplanguage",
+        "number":"2"
+    },
+    {
+        "question": "php  is  server side?",
+        "answers": {
+           "option1": "TRUE",
+           "option2":"FALSE"
+         },
+        "answer": "TRUE" ,
+        "number":"3"
+    }
+]   
+

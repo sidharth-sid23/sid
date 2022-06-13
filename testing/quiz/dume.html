@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO JS</title>
+
+    <h1>QUIZ LOOP - </h1>
+
+    <h3 id="render"></h3>
+
+    <button type="button" onclick="displayName()">NEXT</button>
+
+    
+</head>
+<body>
+    <script src="jquery/jquery.min.js"></script>
+    <script>
+        const students = [
+            'Bobby',
+            'Priya',
+            'Sidharth',
+            'Pawan',
+            'Shivam',
+            'Monu',
+            'Kawal'
+        ];
+        var total = students.length;
+        var i = 0;
+        
+        function displayName(){
+            i++;
+            if(total <= i){
+                i = 0;
+            }
+            
+            renderHTML(i);
+        }
+        function renderHTML(i){
+            $('#render').html(students[i]);
+        }
+        renderHTML(i);
+    </script>
+
+    
+</body>
+</html>

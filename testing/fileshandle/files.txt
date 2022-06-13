@@ -1,0 +1,6 @@
+hello world.
+A better method to open files is with the fopen() functio
+n. This function gives you more options than the readfile() function.
+
+We will use the text file, "webdictionary.txt", during the lessons:$arr=[];
+   
